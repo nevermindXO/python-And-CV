@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Resume</title>
+        <link href="css/styles.css" rel="stylesheet">
+        <script src="index.js"> </script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body style="padding-top: 50px;">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="about.html">Shatarupa Pradhan</a>
+                </div>
+
+            </div>
+        </div>
+
+            <div id = "banner_content">
+                <div class="container">	
+                    <center>
+                        <div class="col">
+                            <h1>Hello !!! I am Shatarupa Pradhan</h1>
+                            <img src="p.jpg" width="200" height="200" alt="">
+                            <p>Electronics & Communication Engineering <br>
+                                 New in programming world </p>
+                            <br/>
+                            <input type="button" id="myBtn" value="Know My Basic Details" class="btn btn-danger btn-lg active" ></input>
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p style="background-color: coral;">Location : Kolkata,West Bengal,India <br>Email Id : iamshatarupa@gmail.com<br>Contact no : 8100080447</p>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+           
+
+        <div><br></div>
+           
+            <div class="col-container">
+                <div class="row text-center ">
+                    <div class=" col">
+                        <a href="education.html" >
+                            <div class="thumbnail">
+                                <img src="s.jpg" alt="">
+                                <div class="caption">
+                                    <h3>Education</h3>
+                                    <p>Know about my education details.</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="technical.html" >
+                            <div class="thumbnail">
+                                <img src="q.jpg" alt="">
+                                <div class="caption">
+                                    <h3>Certification & Training</h3>
+                                    <p>Find about my trainings and certifiaction.</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
+
+                    <div class=" col">
+                        <a href="intern.html" >
+                            <div class="thumbnail">
+                                <img src="r.png" alt="">
+                                <div class="caption">
+                                    <h3>Internship & Industrial Training</h3>
+                                    <p>Click here to find out some extra-curricular activities done by me.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+       
+        <div class="footer-basic text-center">
+            <footer>
+                <p> Find Me On Scoial Media </p>
+                <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/home?lang=en"  target="_blank"class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+            </footer>
+        </div>
+
+      
+       
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+     
+
+    </body> 
+</html>
